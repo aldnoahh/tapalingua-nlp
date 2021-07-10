@@ -57,10 +57,16 @@ for cur_ids_w_time, cur_word in zip(split_ids_w_time, words):
 #for i in range(len(words)):
 #    print("{}      {}     {}".format(words[i], word_start_times[i], word_end_times[i]))
     
+    
 fname= nam+ ".txt"
 with open(fname, 'w') as f:
+    print("transcription",file=f)
     print(transcription,file=f)
-    for i in range(len(words)):
-        print("{}      {}     {}".format(words[i], word_start_times[i], word_end_times[i]),file=f)
+    print("word,start timestamp,end timestamp,pause",file=f)   
+    for i in range(0,len(words)):
+        if i==0:
+            print("{},{},{},{}".format(words[i], word_start_times[i], word_end_times[i], 0),file=f)
+        else:
+            print("{},{},{},{}".format(words[i], word_start_times[i], word_end_times[i], round(word_start_times[i]-word_end_times[i-1],4)),file=f)
     
     
