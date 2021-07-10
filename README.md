@@ -21,6 +21,8 @@ The following are the dependencies:<br />
 8. A wav file for the video file is also generated stored in the same directory. <br />
 9. After successful run, you will get .txt file in the same directory with the video. Example: for record.mp4, record.txt is generated. <br />
 
-The txt file is in the form:<br />
+The txt file is in the csv form:<br /> <br />
+transcription
 ------Full Transcription of Speech------   <br />
-Word --> Start timestamp --> End timestamp
+word,start timestamp, end timestamp, pause
+---,--------,---------,---------
