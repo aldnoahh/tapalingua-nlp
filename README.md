@@ -16,9 +16,10 @@ The following are the dependencies:<br />
       cd tapalingua-nlp <br />
 4. Install dependencies using: sudo bash setup.sh <br />
 5. If the dependencies are not installed, you may need to manually install them using: python3.7 -m pip install xxxx  <br />
-6. After installation of the above dependencies, you need to save the .mp4 video in this folder, and run the script as: python3.7 analysis.py record.mp4  <br />
+6. After installation of the above dependencies, you need to save the .mp4 video in this directory, and run the script as: python3.7 analysis.py record.mp4  <br />
 7. First run will take time, as the script downloads weight files for the model which is nearly 1.35 Gb.  <br />
-8.  After successful run, you will get .txt file in the same folder with the video. Example: for record.mp4, record.txt is generated. <br />
+8. A wav file for the video file is also generated stored in the same directory. <br />
+9. After successful run, you will get .txt file in the same directory with the video. Example: for record.mp4, record.txt is generated. <br />
 
 The txt file is in the form:<br />
 ------Full Transcription of Speech------   <br />
