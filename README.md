@@ -22,7 +22,7 @@ The following are the dependencies:<br />
 9. After successful run, you will get .txt file in the same directory with the video. Example: for record.mp4, record.txt is generated. <br />
 
 The txt file is in the csv form:<br /> <br />
-transcription
+transcription<br />
 ------Full Transcription of Speech------   <br />
-word,start timestamp, end timestamp, pause
+word,start timestamp, end timestamp, pause<br />
 ---,--------,---------,---------
