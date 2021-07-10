@@ -21,5 +21,5 @@ The following are the dependencies:<br />
 8.  After successful run, you will get .txt file in the same folder with the video. Example: for record.mp4, record.txt is generated. <br />
 
 The txt file is in the form:<br />
-_____Speech to Words______   <br />
+------Full Transcription of Speech------   <br />
 Word --> Start timestamp --> End timestamp
