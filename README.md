@@ -8,3 +8,18 @@ The following are the dependencies:<br />
 --librosa 0.8.1<br />
 --transformers 4.8.2<br />
 --ffmpeg<br />
+<br />
+<br />
+1. Ensure the version of Python is 3.7 as this script and its dependencies require it. <br />
+2. Clone this repo.
+3. Then change directory:
+      cd tapalingua-nlp <br />
+4. Install dependencies using: sudo bash setup.sh <br />
+5. If the dependencies are not installed, you may need to manually install them using: python3.7 -m pip install xxxx  <br />
+6. After installation of the above dependencies, you need to save the .mp4 video in this folder, and run the script as: python3.7 analysis.py record.mp4  <br />
+7. First run will take time, as the script downloads weight files for the model which is nearly 1.35 Gb.  <br />
+8.  After successful run, you will get .txt file in the same folder with the video. Example: for record.mp4, record.txt is generated. <br />
+
+The txt file is in the form:<br />
+_____Speech to Words______   <br />
+Word --> Start timestamp --> End timestamp
