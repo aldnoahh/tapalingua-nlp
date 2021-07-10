@@ -1,5 +1,7 @@
 # tapalingua-nlp
 
+___Baseline Document: https://docs.google.com/document/d/1OnXwndZ6SDP10-hM4SP-Hq5bE0bQWijTAQlbBrowWIY/edit?usp=sharing
+<br />
 This script used Facebook`s Wav2vec2 for converting audio from video files to word sequences.
 
 The following are the dependencies:<br />
