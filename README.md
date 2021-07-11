@@ -5,14 +5,14 @@ ___Baseline Document: https://docs.google.com/document/d/1OnXwndZ6SDP10-hM4SP-Hq
 This script used Facebook`s Wav2vec2 for converting audio from video files to word sequences.
 
 The following are the dependencies:<br />
---python 3.7<br />
+--python 3.7 or above<br />
 --pytorch 1.9.0<br />
 --librosa 0.8.1<br />
 --transformers 4.8.2<br />
 --ffmpeg<br />
 <br />
 <br />
-1. Ensure the version of Python is 3.7 as this script and its dependencies require it. <br />
+1. Ensure the version of Python is 3.7 or above as this script and its dependencies require it. <br />
 2. Clone this repo.
 3. Then change directory:
       cd tapalingua-nlp <br />
