@@ -1,4 +1,5 @@
-apt-get update
-apt-get install ffmpeg
+apt update
+add-apt-repository ppa:jonathonf/ffmpeg-4
+apt install ffmpeg
 
-python3 -m pip install -r requirements.txt
+pip install -r requirements.txt
